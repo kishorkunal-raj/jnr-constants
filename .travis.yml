@@ -16,6 +16,15 @@ matrix:
     jdk: openjdk8
   - os: linux
     jdk: openjdk9
+  - os: linux
+    jdk: oraclejdk8
+    arch: ppc64le
+  - os: linux
+    jdk: openjdk8
+    arch: ppc64le
+  - os: linux
+    jdk: openjdk9
+    arch: ppc64le
 sudo: false
 cache:
   directories:
